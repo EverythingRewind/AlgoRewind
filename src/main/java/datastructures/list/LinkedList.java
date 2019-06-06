@@ -82,14 +82,14 @@ public class LinkedList {
         list.print();
 
         //removeGivenElement(list.first.next.next.next);
-        removeDups(list);
+        removeDuplicates(list);
         list.print();
 
     }
 
     // Remove Dups: Write code to remove duplicates from an unsorted linked list
     // no buffer allowed
-    public static <E> SinglyLinkedList<E> removeDups(SinglyLinkedList<E> list) {
+    public static <E> SinglyLinkedList<E> removeDuplicates(SinglyLinkedList<E> list) {
 
         // make use of hash table or set
 
@@ -129,6 +129,20 @@ public class LinkedList {
 
         // remove given element
         prev.next = null;
+
+    }
+
+    public static <E> Node<E> delectLoop(SinglyLinkedList<E> list) {
+
+        var current1 = list.first;
+
+        var current2 = list.first;
+
+        while (current1 != null ) {
+            return null;
+        }
+
+        return null;
 
     }
 
