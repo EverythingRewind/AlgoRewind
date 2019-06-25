@@ -24,5 +24,5 @@ Divide:
 + Compute the index of p as part of the partitioning procedure
 
 Conquer:
-+ Sort the tow sub-arrays A[p..q-1] and A[p+1..r] by recursive calls to quicksort
++ Sort the two sub-arrays A[p..q-1] and A[p+1..r] by recursive calls to quicksort
 
